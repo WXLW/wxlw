@@ -1,0 +1,220 @@
+2021-09-20 19:56:58,625:INFO:Initializing load_model()
+2021-09-20 19:56:58,625:INFO:load_model(model_name=Final RPF_Lightgbm Model 20Sep2021, platform=None, authentication=None, verbose=True)
+2021-09-20 19:58:41,378:INFO:Initializing load_model()
+2021-09-20 19:58:41,378:INFO:load_model(model_name=Final RPF_Lightgbm Model 20Sep2021, platform=None, authentication=None, verbose=True)
+2021-09-20 19:59:13,386:INFO:Initializing load_model()
+2021-09-20 19:59:13,386:INFO:load_model(model_name=Final RPF_Lightgbm Model 20Sep2021, platform=None, authentication=None, verbose=True)
+2021-09-20 20:00:25,095:INFO:Initializing load_model()
+2021-09-20 20:00:25,096:INFO:load_model(model_name=Final RPF_Lightgbm Model 20Sep2021, platform=None, authentication=None, verbose=True)
+2021-09-20 20:00:25,687:INFO:Initializing load_model()
+2021-09-20 20:00:25,687:INFO:load_model(model_name=Final RPF_Lightgbm Model 20Sep2021, platform=None, authentication=None, verbose=True)
+2021-09-20 20:00:26,249:INFO:Initializing load_model()
+2021-09-20 20:00:26,281:INFO:load_model(model_name=Final RPF_Lightgbm Model 20Sep2021, platform=None, authentication=None, verbose=True)
+2021-09-20 20:01:14,401:INFO:Initializing load_model()
+2021-09-20 20:01:14,403:INFO:load_model(model_name=Final RPF_Lightgbm Model 20Sep2021, platform=None, authentication=None, verbose=True)
+2021-09-20 20:01:16,686:INFO:Initializing load_model()
+2021-09-20 20:01:16,687:INFO:load_model(model_name=Final RPF_Lightgbm Model 20Sep2021, platform=None, authentication=None, verbose=True)
+2021-09-20 20:01:18,158:INFO:Initializing predict_model()
+2021-09-20 20:01:18,159:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='regression',
+                                      target='Shear resistance')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strate...
+                ('fix_perfect', Remove_100(target='Shear resistance')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMRegressor(colsample_bytree=0.5, learning_rate=0.039038,
+                               max_depth=15, min_child_samples=14,
+                               n_estimators=850, num_leaves=146,
+                               random_state=123, subsample=0.5, verbosity=0)]]), probability_threshold=None, encoded_labels=True, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2021-09-20 20:01:18,163:INFO:Checking exceptions
+2021-09-20 20:01:18,165:INFO:Preloading libraries
+2021-09-20 20:01:50,223:INFO:Initializing load_model()
+2021-09-20 20:01:50,258:INFO:load_model(model_name=Final RPF_Lightgbm Model 20Sep2021, platform=None, authentication=None, verbose=True)
+2021-09-20 20:01:54,867:INFO:Initializing load_model()
+2021-09-20 20:01:54,868:INFO:load_model(model_name=Final RPF_Lightgbm Model 20Sep2021, platform=None, authentication=None, verbose=True)
+2021-09-20 20:01:56,330:INFO:Initializing predict_model()
+2021-09-20 20:01:56,330:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='regression',
+                                      target='Shear resistance')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strate...
+                ('fix_perfect', Remove_100(target='Shear resistance')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMRegressor(colsample_bytree=0.5, learning_rate=0.039038,
+                               max_depth=15, min_child_samples=14,
+                               n_estimators=850, num_leaves=146,
+                               random_state=123, subsample=0.5, verbosity=0)]]), probability_threshold=None, encoded_labels=True, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2021-09-20 20:01:56,332:INFO:Checking exceptions
+2021-09-20 20:01:56,341:INFO:Preloading libraries
+2021-09-20 20:02:00,564:INFO:Initializing load_model()
+2021-09-20 20:02:00,564:INFO:load_model(model_name=Final RPF_Lightgbm Model 20Sep2021, platform=None, authentication=None, verbose=True)
+2021-09-20 20:02:02,115:INFO:Initializing load_model()
+2021-09-20 20:02:02,115:INFO:load_model(model_name=Final RPF_Lightgbm Model 20Sep2021, platform=None, authentication=None, verbose=True)
+2021-09-20 20:02:03,555:INFO:Initializing predict_model()
+2021-09-20 20:02:03,556:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='regression',
+                                      target='Shear resistance')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strate...
+                ('fix_perfect', Remove_100(target='Shear resistance')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMRegressor(colsample_bytree=0.5, learning_rate=0.039038,
+                               max_depth=15, min_child_samples=14,
+                               n_estimators=850, num_leaves=146,
+                               random_state=123, subsample=0.5, verbosity=0)]]), probability_threshold=None, encoded_labels=True, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2021-09-20 20:02:03,557:INFO:Checking exceptions
+2021-09-20 20:02:03,558:INFO:Preloading libraries
+2021-09-20 20:06:06,880:INFO:Initializing load_model()
+2021-09-20 20:06:06,909:INFO:load_model(model_name=Final RPF_Lightgbm Model 20Sep2021, platform=None, authentication=None, verbose=True)
+2021-09-20 20:06:53,174:INFO:Initializing load_model()
+2021-09-20 20:06:53,206:INFO:load_model(model_name=Final RPF_Lightgbm Model 20Sep2021, platform=None, authentication=None, verbose=True)
+2021-09-20 20:07:05,978:INFO:Initializing load_model()
+2021-09-20 20:07:06,005:INFO:load_model(model_name=Final RPF_Lightgbm Model 20Sep2021, platform=None, authentication=None, verbose=True)
+2021-09-20 20:07:37,259:INFO:Initializing load_model()
+2021-09-20 20:07:37,259:INFO:load_model(model_name=Final RPF_Lightgbm Model 20Sep2021, platform=None, authentication=None, verbose=True)
+2021-09-20 20:07:38,814:INFO:Initializing load_model()
+2021-09-20 20:07:38,815:INFO:load_model(model_name=Final RPF_Lightgbm Model 20Sep2021, platform=None, authentication=None, verbose=True)
+2021-09-20 20:07:40,246:INFO:Initializing predict_model()
+2021-09-20 20:07:40,247:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='regression',
+                                      target='Shear resistance')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strate...
+                ('fix_perfect', Remove_100(target='Shear resistance')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMRegressor(colsample_bytree=0.5, learning_rate=0.039038,
+                               max_depth=15, min_child_samples=14,
+                               n_estimators=850, num_leaves=146,
+                               random_state=123, subsample=0.5, verbosity=0)]]), probability_threshold=None, encoded_labels=True, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2021-09-20 20:07:40,248:INFO:Checking exceptions
+2021-09-20 20:07:40,250:INFO:Preloading libraries
+2021-09-20 20:19:02,230:INFO:Initializing load_model()
+2021-09-20 20:19:02,256:INFO:load_model(model_name=Final RPF_Lightgbm Model 20Sep2021, platform=None, authentication=None, verbose=True)
+2021-09-20 20:24:13,759:INFO:Initializing load_model()
+2021-09-20 20:24:13,793:INFO:load_model(model_name=Final RPF_Lightgbm Model 20Sep2021, platform=None, authentication=None, verbose=True)
+2021-09-20 20:24:57,243:INFO:Initializing load_model()
+2021-09-20 20:24:57,270:INFO:load_model(model_name=Final RPF_Lightgbm Model 20Sep2021, platform=None, authentication=None, verbose=True)
+2021-09-20 20:27:01,374:INFO:Initializing load_model()
+2021-09-20 20:27:01,406:INFO:load_model(model_name=Final RPF_Lightgbm Model 20Sep2021, platform=None, authentication=None, verbose=True)
+2021-09-20 20:29:09,986:INFO:Initializing load_model()
+2021-09-20 20:29:10,003:INFO:load_model(model_name=Final RPF_Lightgbm Model 20Sep2021, platform=None, authentication=None, verbose=True)
+2021-09-20 20:30:02,820:INFO:Initializing load_model()
+2021-09-20 20:30:02,821:INFO:load_model(model_name=Final RPF_Lightgbm Model 20Sep2021, platform=None, authentication=None, verbose=True)
+2021-09-20 20:30:11,127:INFO:Initializing load_model()
+2021-09-20 20:30:11,128:INFO:load_model(model_name=Final RPF_Lightgbm Model 20Sep2021, platform=None, authentication=None, verbose=True)
+2021-09-20 20:30:19,432:INFO:Initializing load_model()
+2021-09-20 20:30:19,432:INFO:load_model(model_name=Final RPF_Lightgbm Model 20Sep2021, platform=None, authentication=None, verbose=True)
+2021-09-20 20:30:30,414:INFO:Initializing load_model()
+2021-09-20 20:30:30,414:INFO:load_model(model_name=Final RPF_Lightgbm Model 20Sep2021, platform=None, authentication=None, verbose=True)
+2021-09-20 20:30:38,446:INFO:Initializing predict_model()
+2021-09-20 20:30:38,447:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='regression',
+                                      target='Shear resistance')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strate...
+                ('fix_perfect', Remove_100(target='Shear resistance')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMRegressor(colsample_bytree=0.5, learning_rate=0.039038,
+                               max_depth=15, min_child_samples=14,
+                               n_estimators=850, num_leaves=146,
+                               random_state=123, subsample=0.5, verbosity=0)]]), probability_threshold=None, encoded_labels=True, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2021-09-20 20:30:38,448:INFO:Checking exceptions
+2021-09-20 20:30:38,452:INFO:Preloading libraries
+2021-09-20 20:30:48,090:INFO:Initializing load_model()
+2021-09-20 20:30:48,091:INFO:load_model(model_name=Final RPF_Lightgbm Model 20Sep2021, platform=None, authentication=None, verbose=True)
+2021-09-20 20:30:56,665:INFO:Initializing load_model()
+2021-09-20 20:30:56,665:INFO:load_model(model_name=Final RPF_Lightgbm Model 20Sep2021, platform=None, authentication=None, verbose=True)
+2021-09-20 20:36:01,038:INFO:Initializing load_model()
+2021-09-20 20:36:01,075:INFO:load_model(model_name=Final RPF_Lightgbm Model 20Sep2021, platform=None, authentication=None, verbose=True)
+2021-09-20 20:37:04,405:INFO:Initializing load_model()
+2021-09-20 20:37:04,406:INFO:load_model(model_name=Final RPF_Lightgbm Model 20Sep2021, platform=None, authentication=None, verbose=True)
+2021-09-20 20:37:09,511:INFO:Initializing load_model()
+2021-09-20 20:37:09,511:INFO:load_model(model_name=Final RPF_Lightgbm Model 20Sep2021, platform=None, authentication=None, verbose=True)
+2021-09-20 20:37:13,288:INFO:Initializing predict_model()
+2021-09-20 20:37:13,288:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='regression',
+                                      target='Shear resistance')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strate...
+                ('fix_perfect', Remove_100(target='Shear resistance')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMRegressor(colsample_bytree=0.5, learning_rate=0.039038,
+                               max_depth=15, min_child_samples=14,
+                               n_estimators=850, num_leaves=146,
+                               random_state=123, subsample=0.5, verbosity=0)]]), probability_threshold=None, encoded_labels=True, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2021-09-20 20:37:13,290:INFO:Checking exceptions
+2021-09-20 20:37:13,291:INFO:Preloading libraries
+2021-09-20 20:41:30,049:INFO:Initializing load_model()
+2021-09-20 20:41:30,080:INFO:load_model(model_name=Final RPF_Lightgbm Model 20Sep2021, platform=None, authentication=None, verbose=True)
+2021-09-20 20:46:34,833:INFO:Initializing load_model()
+2021-09-20 20:46:34,874:INFO:load_model(model_name=Final RPF_Lightgbm Model 20Sep2021, platform=None, authentication=None, verbose=True)
+2021-09-20 20:46:57,584:INFO:Initializing load_model()
+2021-09-20 20:46:57,621:INFO:load_model(model_name=Final RPF_Lightgbm Model 20Sep2021, platform=None, authentication=None, verbose=True)
+2021-09-20 20:49:25,833:INFO:Initializing load_model()
+2021-09-20 20:49:25,862:INFO:load_model(model_name=Final RPF_Lightgbm Model 20Sep2021, platform=None, authentication=None, verbose=True)
+2021-09-20 20:56:35,579:INFO:Initializing load_model()
+2021-09-20 20:56:35,603:INFO:load_model(model_name=Final RPF_Lightgbm Model 20Sep2021, platform=None, authentication=None, verbose=True)
+2021-09-20 21:08:47,931:INFO:Initializing load_model()
+2021-09-20 21:08:47,933:INFO:load_model(model_name=Final RPF_Lightgbm Model 20Sep2021, platform=None, authentication=None, verbose=True)
+2021-09-20 21:08:58,457:INFO:Initializing load_model()
+2021-09-20 21:08:58,459:INFO:load_model(model_name=Final RPF_Lightgbm Model 20Sep2021, platform=None, authentication=None, verbose=True)
